@@ -16,3 +16,9 @@ bool isPrime(int num) {
     }
     return true;
 }
+int getNextPrime(int begin) {
+    while (true) {
+        if (isPrime(++begin))
+        return begin;
+    }
+}
