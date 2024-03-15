@@ -28,3 +28,11 @@ int getPrevPrime(int end) {
         return end;
     }
 }
+int main() {
+    int begin, end;
+    int prime1, prime2;
+
+    getTwoValues(begin, end);
+    prime1 = getNextPrime(begin);
+    std::cout << "the prime number after" << begin << " is " << prime1 << std::endl;
+    }
