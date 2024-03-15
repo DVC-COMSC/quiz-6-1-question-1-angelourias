@@ -22,3 +22,9 @@ int getNextPrime(int begin) {
         return begin;
     }
 }
+int getPrevPrime(int end) {
+    while (true) {
+        if (isPrime(--end))
+        return end;
+    }
+}
