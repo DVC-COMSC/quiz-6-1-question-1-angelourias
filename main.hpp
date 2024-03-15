@@ -1,8 +1,7 @@
+#include <iostream>
 
-//********************
-// Declare Function Prototypes
-//********************
-
-// ******************************
-// Implement all your functions here
-// ******************************
+void getTwoValues(int& begin, int& end) {
+    do {
+        
+    }
+}
