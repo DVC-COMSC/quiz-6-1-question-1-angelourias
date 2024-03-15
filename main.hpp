@@ -35,4 +35,7 @@ int main() {
     getTwoValues(begin, end);
     prime1 = getNextPrime(begin);
     std::cout << "the prime number after" << begin << " is " << prime1 << std::endl;
+    std::cout << "the prime number before" << end << " is " << prime2 << std::endl;
+    
+    return 0;
     }
